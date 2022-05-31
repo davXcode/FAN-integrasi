@@ -1,4 +1,4 @@
-const testDua = (input) => {
+const specialTest = (input) => {
   const arrInput = input.split(" ");
   const regex = /[*_/(/[!/=/&]/;
   let count = 0;
@@ -16,6 +16,6 @@ const a = "Saat meng*ecat tembok, Agung dib_antu oleh Raihan.";
 const b = "Berapa u(mur minimal[ untuk !mengurus ktp?";
 const c = "Masing-masing anak mendap(atkan uang jajan ya=ng be&rbeda.";
 
-console.log(testDua(a));
-console.log(testDua(b));
-console.log(testDua(c));
+console.log(specialTest(a));
+console.log(specialTest(b));
+console.log(specialTest(c));
